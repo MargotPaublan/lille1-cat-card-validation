@@ -1,0 +1,17 @@
+{
+  "name": "lille1-cat-card-validation",
+  "version": "1.0.0",
+  "description": "A project that automatically validate functionalities of \"lille1-cat-card\" application.",
+  "main": "cucumber.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "tverhoken",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0-rc.0",
+    "chai": "^4.2.0",
+    "puppeteer": "^5.4.1",
+    "stryker-diff-runner": "^1.0.19"
+  }
+}
